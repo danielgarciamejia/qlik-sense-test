@@ -1,0 +1,6 @@
+LOAD
+    "Year",
+    Sales,
+    Quantity
+FROM [lib://Folder/Data\Data.xlsx]
+(ooxml, embedded labels, table is Data);
